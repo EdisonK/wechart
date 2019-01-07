@@ -12,6 +12,11 @@
 */
 
 Route::get('/', function () {
+
+    $wechat = app('wechat.official_account');
+    $qrcode = $wechat->qrcode;
+    $result = $qrcode->temporary('foo', 3600);
+    return $result;
     return view('welcome');
 });
 Route::any('/wechat', 'WeChatController@serve');
