@@ -64,10 +64,10 @@ return [
 //            'token' => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'your-token'),           // Token
 //            'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', ''),                 // EncodingAESKey
 
-            'app_id'    => 'wxf2ff795a3d928ccc',
-            'secret'    => '5630c959f953b6b5c962b2c0cb209f3f',
+            'app_id'    => 'wxc2390226e39a53b7',
+            'secret'    => '7660ca170d2cb69788484ca7c2172b32',
             'token'     => 'laratest',
-            'aes_key'   => 'XSptGCAUZ6mr5excdyLHjQsB7ULOvufAjGldPSapzvQ',
+            'aes_key'   => '8caVNPtxzWBk9JyoTwG7QSLmXiW2fr2Jq1qJBIYVgoF',
             /*
              * OAuth 配置
              *
